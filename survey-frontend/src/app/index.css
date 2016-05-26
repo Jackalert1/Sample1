@@ -1,0 +1,29 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.thumbnail {
+  height: 200px;
+}
+
+.thumbnail img.pull-right {
+  width: 50px;
+}
+
+.m-t{
+    margin-top:15px;
+}
+
+.m-b{
+    margin-bottom:15px;
+}
+
+.text-center{
+    text-align: center;
+}
+.vertical_text{
+    padding-top: 7px;
+}

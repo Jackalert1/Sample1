@@ -1,0 +1,10 @@
+<div class="m-t-n-xxs m-b-n-xxs m-r">
+    <button type="button" tooltip="Add row" class="btn m-t m-b  btn-addon btn-sm btn-primary pull-right" ng-click="patientCtrl.add()" ng-disabled="medias.length >= 10">
+        <i class="glyphicon glyphicon-plus" style="float: none"></i>
+    </button>
+</div>
+<!--<div ag-grid="gridOptions" class="ag-blue" style="height:300px; clear: both"></div>-->
+
+<div ag-grid="patientCtrl.gridOptions" class="ag-blue" style="height:300px; clear:both;"></div>
+<!--<div style="height: 94%;" id="myGrid" class="ag-fresh"></div>-->
+ <!--<div id="grid1" ui-grid="gridOptions" ui-grid-edit class="grid " style="clear:both"></div>-->

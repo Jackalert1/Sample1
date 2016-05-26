@@ -1,0 +1,47 @@
+<!--<div class="panel panel-default">
+     <div class="panel-heading">
+         <ul class = "nav nav-tabs">
+             <li ui-sref="information"  ui-sref-active="active"><a href="">Patients</a></li>
+             <li ui-sref="physicians"  ui-sref-active="active"><a href="">Physicians</a></li>
+         </ul>
+     </div>
+     <div ui-view="main">
+         
+     </div>
+</div>
+<div ag-grid="InforCntrl.gridOptions" class="ag-blue" style="height:300px;"></div>-->
+
+
+<div class="container">
+    <div class="text-center">
+
+        <h1>   Dr.Nezhat's follow up </h1>
+    </div>
+    <div class="panel panel-body panel-default">
+        <!--<tabset class="tab-container" ng-class="{active:$state.includes('information.patients')}">
+            <tab heading="Patients" ui-sref="information.patients" ui-sref-active="active">
+                <div ui-view="patients@information"></div>
+            </tab>
+            <tab heading="physicians" ui-sref="information.physicians" ui-sref-active="active">
+                <div ui-view="physicians@information"></div>
+            </tab>
+
+        </tabset>
+        <div ui-view="main"></div>-->
+        <ul class="nav nav-tabs nav-xs">
+            <li ui-sref="information.patients" ui-sref-active="active" class="f15"><a href="">Patients</a></li>
+            <li ui-sref="information.physicians" ui-sref-active="active" class="f15"><a href="">Physicians</a></li>
+            
+        </ul>
+        <div ui-view="main">
+
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+
+    </div>
+</div>
